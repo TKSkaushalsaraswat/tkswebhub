@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link class="a1" rel="icon" type="png" href="img/tks1.png" />
+
+    <title>Welcome To My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <a href="/tks/">
+            <img class="logo" src="tks.png" alt="TKSWEBHUB" />
+          </a>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="main">
+          <header>
+            <main id="about">
+              <h1 class="lg-heading head-about">
+                About
+                <span class="text-secondary">Me</span>
+              </h1>
+              <h2 class="sm-heading sm">Let me tell you a few things...</h2>
+              <div class="about-info">
+                <img
+                  width="250px;"
+                  height="250px;"
+                  src="ks.jfif"
+                  alt="kaushal"
+                  class="bio-image"
+                />
+
+                <div class="bio">
+                  <h3 class="text-secondary">BIO</h3>
+                  <p class="bio-description">
+                    I am ambitious, adventurous,assiduous, animated
+                    ,innovative,and optimized solution seeker . A dynamic
+                    personality with great leadership qualities and enthusiastic
+                    to set a bar for myself.
+                  </p>
+                </div>
+
+                <div class="job job-1">
+                  <h3>Profession</h3>
+                  <h5>Web Developer, Programmer, Designer & Entrepreneur.</h5>
+                  <p>
+                    Prolific full-stack web developer with 3+ years of
+                    experience and proven end-to-end development skills.
+                    Lifesaving web developer with expert HTML5, CSS3,
+                    JavaScript, NodeJS, ReactJS & React Native skills. Developed
+                    several professional websites for colleges and small
+                    businesses. 2+ years of experience in video editing, logo
+                    and poster designing for professionals. Recieved Best
+                    Challenge Acceptor Award from internity foundation. Looking
+                    forward to explore new domains of technology for future.
+                  </p>
+                </div>
+
+                <div
+                  class="job job-2"
+                  data-aos-offset="150"
+                  data-aos-duration="700"
+                  data-aos="flip-left"
+                >
+                  <h3>Working Experience</h3>
+                  <h5>Working Experience With Organizations.</h5>
+                  <p>
+                    Working experience with Internity foundation on Full Stack
+                    Web Blog application using React, TypeScript, Node, Express
+                    And MySql. Recently organised a workshop for my colleagues
+                    on web development in collabration with BSA College of
+                    Engineering & Technology, Mathura .Expert in video editing
+                    and poster making and also works with colleague in college
+                    fests. Worked on React Native technology for cross platform
+                    applications. Built native apps like (Sound Player, Currency
+                    Converter, Games and E-Commerce Application).
+                  </p>
+                </div>
+
+                <div
+                  class="job job-3"
+                  data-aos-offset="300"
+                  data-aos-duration="900"
+                  data-aos="flip-left"
+                >
+                  <h3>My Achivements</h3>
+                  <h5>Awards & Recognition.</h5>
+                  <p>
+                    Awarded Best Challenge Acceptor Award from Internity
+                    Foundation. Also Awarded First prize for web designing and
+                    development at BSA College of Engineering & Technology,
+                    Mathura. Recently completed Internship with internity
+                    foundation and worked on live Full Stack Web Blog
+                    Application project using React, TypeScript, Node, Express
+                    And MySql Database. Acknowledged as expert in video editing
+                    and poster making at BSA & works with colleague in college
+                    fests.
+                  </p>
+                </div>
+              </div>
+            </main>
+
+            <footer id="main-footer">TKS WEB HUB &copy; 2020</footer>
+          </header>
+        </div>
+
+        <div class="shadow shadow-about one"></div>
+        <div class="shadow shadow-about two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="/tks/" style="--i: 0.05s">Home</a>
+          </li>
+          <li>
+            <a class="active" href="aboutMe.html" style="--i: 0.15s"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="work.html" style="--i: 0.25s">My Projects</a>
+          </li>
+          <li>
+            <a href="skills.html" style="--i: 0.35s">My expertise</a>
+          </li>
+          <li>
+            <a href="contact.html" style="--i: 0.45s">How To Reach Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".bio-image", {
+        duration: 1000,
+        origin: "left",
+        delay: 300,
+        distance: "10px",
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".text-secondary", {
+        duration: 1000,
+        origin: "right",
+        delay: 600,
+        distance: "200px",
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".bio-description", {
+        duration: 1000,
+        origin: "right",
+        delay: 350,
+        distance: "200px",
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".job-1", {
+        duration: 1000,
+        origin: "bottom",
+        delay: 450,
+        distance: "200px",
+      });
+
+      window.sr = ScrollReveal();
+      sr.reveal(".job-2", {
+        duration: 1000,
+        origin: "bottom",
+        delay: 550,
+        distance: "200px",
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".job-3", {
+        duration: 1000,
+        origin: "bottom",
+        delay: 650,
+        distance: "200px",
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>

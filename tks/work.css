@@ -1,0 +1,107 @@
+#ws h1 {
+  font-size: 3rem;
+}
+
+#ws p {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+section {
+  height: 100vh;
+  display: flex;
+  background: #ededed;
+  font-family: "Roboto", sans-serif;
+}
+
+.room-gallery {
+  width: 50%;
+  background: #282e34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bg-img2.jpg);
+  background-size: cover;
+  color: rgb(41, 41, 41);
+}
+.room-description h1 {
+  padding: 10px;
+  font-size: 40px;
+}
+.room-description p {
+  font-size: 20px;
+}
+
+.gallery-hightlight {
+  width: 95%;
+  height: 50%;
+}
+
+.room-preview {
+  display: flex;
+  width: 95%;
+  border: 2px solid #d3baa0;
+}
+.room-preview img {
+  flex-grow: 1;
+  height: 100px;
+  opacity: 0.5;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+}
+
+img.room-active {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 760px) {
+  .room-gallery {
+    display: none;
+  }
+
+  .room-description {
+    display: flex;
+    width: 100%;
+    background-size: contain !important;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-image: url(img/bg-img2.jpg);
+
+    align-items: center;
+  }
+  #about {
+    margin-top: 5rem !important;
+  }
+  .lg-heading {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #work h1 {
+    font-size: 3rem;
+  }
+  #work h2 {
+    font-size: 1.5rem;
+  }
+
+  #sm {
+    font-size: 2rem;
+  }
+  #ws h1 {
+    font-size: 2rem;
+  }
+  #about {
+    margin-top: -9rem !important;
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link class="a1" rel="icon" type="png" href="img/tks1.png" />
+    <title>Welcome To My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="menu">
+          <a href="/tks/">
+            <img class="logo" src="tks.png" alt="TKSWEBHUB" />
+          </a>
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="main">
+          <header>
+            <main id="contact">
+              <h1 class="lg-heading head-about">
+                Contact
+                <span class="text-secondary">Me</span>
+              </h1>
+              <h2 class="sm-heading sm">This is how you can reach me...</h2>
+              <div class="boxes">
+                <div>
+                  <span class="text-secondary">Linkedin:</span>
+                  Kaushal Saraswat
+                </div>
+                <div>
+                  <span class="text-secondary">Phone: </span> 91-8433187010
+                </div>
+                <div>
+                  <span class="text-secondary">Email: </span>
+                  thekaushalsaraswat@gmail.com
+                </div>
+              </div>
+            </main>
+            <footer id="main-footer">TKS WEB HUB &copy; 2020</footer>
+          </header>
+        </div>
+
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="/tks/" style="--i: 0.05s">Home</a>
+          </li>
+          <li>
+            <a href="aboutMe.html" style="--i: 0.15s">About Me</a>
+          </li>
+          <li>
+            <a href="work.html" style="--i: 0.25s">My Projects</a>
+          </li>
+          <li>
+            <a href="skills.html" style="--i: 0.35s">My expertise</a>
+          </li>
+          <li>
+            <a class="active" href="contact.html" style="--i: 0.45s"
+              >How To Reach Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".boxes", {
+        duration: 1000,
+        delay: 200,
+        origin: "bottom",
+        distance: "100px",
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
